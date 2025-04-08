@@ -28,22 +28,26 @@ void dgemm(int n, double* A, double* B, double* C){
 }
 
 void initializer(int n, double* A, double* B){
-    /* This function will initialize A and B with the same random values and with the range of [0,9], the values are double type */
+    /* This function will initialize A and B with different random values and with the range of [0,9], the values are double type */
 
     /* Initializing a set seed, which means that the benchmarks will be done always with the same seed (same random numbers each time) */
     srand(1);
 
     for (int i = 0; i < n*n; ++i){
-        int integer_value = rand()% 10;
-        double double_value = (double)integer_value;
-        A[i] = double_value;
-        B[i] = double_value;
+        int integer_value_for_A = rand()% 10;
+        double double_value_for_A = (double)integer_value_for_A;
+
+        int integer_value_for_B = rand()% 10;
+        double double_value_for_B = (double)integer_value_for_B;
+        
+        A[i] = double_value_for_A;
+        B[i] = double_value_for_B;
     }
 }
 
 int main(){
-    /* Creating the size of the matrix*/
-    int n = 5; 
+    /* Creating the size of the matrix, the sizes for this project are 1K, 2K, 4K and 8K(1024, 2048, 4096, 8192)*/
+    int n = 1024; 
 
     /* Pointer to a place in memory where there is a sequence of doubles, the size of this sequence is defined by: */
     /* n*n*(the size of the double type defined in the architecture or compiler [some embedded compilers the size is different than 8 bytes]) */
