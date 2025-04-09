@@ -100,7 +100,7 @@ int main(){
     /* The (double) is a type cast, since the counter contains a longlong int (64 bits) we transform the numerator in a double */
     /* This way we the compiler makes a precise division with decimals instead of integers */
     dgemm_time = (double)(end.QuadPart - start.QuadPart) / freq.QuadPart;
-    printf("The DGEMM algorithm with matrices the size of %d took: %.9f seconds\n", n, dgemm_time);
+    printf("%d o3 %.9f\n", n, dgemm_time);
     
     free(A);
     free(B);
