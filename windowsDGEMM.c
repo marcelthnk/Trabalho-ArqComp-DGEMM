@@ -47,7 +47,7 @@ void initializer(int n, double* A, double* B){
 
 int main(){
     /* Creating the size of the matrix, the sizes for this project are 1K, 2K, 4K and 8K(1024, 2048, 4096, 8192)*/
-    int n = 1024; 
+    int n = 8192; 
 
     /* Pointer to a place in memory where there is a sequence of doubles, the size of this sequence is defined by: */
     /* n*n*(the size of the double type defined in the architecture or compiler [some embedded compilers the size is different than 8 bytes]) */
