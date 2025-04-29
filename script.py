@@ -4,7 +4,7 @@ import subprocess
 # Library for executing an external program
 
 # Getting the program path, if it is in the same directory then just put the name and the extension(.exe)
-program_path = "dgemm_8k_o3.exe"
+program_path = "dgemm_8k_O2.exe"
 
 # Creating a txt to store the time it took
 with open("times.txt", "a") as txt:

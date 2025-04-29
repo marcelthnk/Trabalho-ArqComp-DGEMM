@@ -100,7 +100,9 @@ int main(){
     /* The (double) is a type cast, since the counter contains a longlong int (64 bits) we transform the numerator in a double */
     /* This way we the compiler makes a precise division with decimals instead of integers */
     dgemm_time = (double)(end.QuadPart - start.QuadPart) / freq.QuadPart;
-    printf("%d o3 %.9f\n", n, dgemm_time);
+
+    /* The "Oi" is the optimization that this code is being compiled, if you are going to compile with O3 don't forget to change it in the printf function below */
+    printf("%d O2 %.9f\n", n, dgemm_time);
     
     free(A);
     free(B);
