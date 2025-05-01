@@ -97,7 +97,7 @@ int main(){
   
     double dgemm_time = seconds + nanoseconds * 1e-9;
 
-    printf("%d O3 %.9f\n", n, dgemm_time);
+    printf("%d O1 %.9f\n", n, dgemm_time);
     
     free(A);
     free(B);
