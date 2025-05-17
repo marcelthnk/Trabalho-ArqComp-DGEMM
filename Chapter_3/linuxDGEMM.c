@@ -46,7 +46,7 @@ void initializer(int n, double* A, double* B){
 
 int main(){
     /* Creating the size of the matrix, the sizes for this project are 1K, 2K, 4K and 8K(1024, 2048, 4096, 8192)*/
-    int n = 1024; 
+    int n = 8192; 
 
     /* Initializng each matrix */
     double* A = (double*)_mm_malloc(n * n * sizeof(double), 32);
@@ -84,7 +84,7 @@ int main(){
   
     double dgemm_time = seconds + nanoseconds * 1e-9;
 
-    printf("%d O1 %.9f\n", n, dgemm_time);
+    printf("%d O3 %.9f\n", n, dgemm_time);
     
     _mm_free(A);
     _mm_free(B);

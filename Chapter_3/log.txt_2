@@ -1,0 +1,133 @@
+nohup: ignoring input
+Running dgemm_2k_O0
+Running try: 1
+Running try: 2
+Running try: 3
+Running try: 4
+Running try: 5
+Running try: 6
+Running try: 7
+Running try: 8
+Running try: 9
+Running try: 10
+Running dgemm_2k_O1
+Running try: 1
+Running try: 2
+Running try: 3
+Running try: 4
+Running try: 5
+Running try: 6
+Running try: 7
+Running try: 8
+Running try: 9
+Running try: 10
+Running dgemm_2k_O2
+Running try: 1
+Running try: 2
+Running try: 3
+Running try: 4
+Running try: 5
+Running try: 6
+Running try: 7
+Running try: 8
+Running try: 9
+Running try: 10
+Running dgemm_2k_O3
+Running try: 1
+Running try: 2
+Running try: 3
+Running try: 4
+Running try: 5
+Running try: 6
+Running try: 7
+Running try: 8
+Running try: 9
+Running try: 10
+Running dgemm_4k_O0
+Running try: 1
+Running try: 2
+Running try: 3
+Running try: 4
+Running try: 5
+Running try: 6
+Running try: 7
+Running try: 8
+Running try: 9
+Running try: 10
+Running dgemm_4k_O1
+Running try: 1
+Running try: 2
+Running try: 3
+Running try: 4
+Running try: 5
+Running try: 6
+Running try: 7
+Running try: 8
+Running try: 9
+Running try: 10
+Running dgemm_4k_O2
+Running try: 1
+Running try: 2
+Running try: 3
+Running try: 4
+Running try: 5
+Running try: 6
+Running try: 7
+Running try: 8
+Running try: 9
+Running try: 10
+Running dgemm_4k_O3
+Running try: 1
+Running try: 2
+Running try: 3
+Running try: 4
+Running try: 5
+Running try: 6
+Running try: 7
+Running try: 8
+Running try: 9
+Running try: 10
+Running dgemm_8k_O0
+Running try: 1
+Running try: 2
+Running try: 3
+Running try: 4
+Running try: 5
+Running try: 6
+Running try: 7
+Running try: 8
+Running try: 9
+Running try: 10
+Running dgemm_8k_O1
+Running try: 1
+Running try: 2
+Running try: 3
+Running try: 4
+Running try: 5
+Running try: 6
+Running try: 7
+Running try: 8
+Running try: 9
+Running try: 10
+Running dgemm_8k_O2
+Running try: 1
+Running try: 2
+Running try: 3
+Running try: 4
+Running try: 5
+Running try: 6
+Running try: 7
+Running try: 8
+Running try: 9
+Running try: 10
+Running dgemm_8k_O3
+Running try: 1
+Running try: 2
+Running try: 3
+Running try: 4
+Running try: 5
+Running try: 6
+Running try: 7
+Running try: 8
+Running try: 9
+Running try: 10
