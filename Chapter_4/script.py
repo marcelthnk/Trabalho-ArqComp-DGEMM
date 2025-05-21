@@ -3,7 +3,7 @@
 import subprocess 
 # Library for executing an external program
 
-for opt_num in [1,2,4,8]:
+for opt_num in [8]:
     # Getting the program path, if it is in the same directory then just put the name and the extension(.exe if in Windows)
     program_path = f"./dgemm_{opt_num}k_O3"
 
@@ -12,7 +12,7 @@ for opt_num in [1,2,4,8]:
     # Creating a txt to store the time it took
     with open("times.txt", "a") as txt:
         # Running it 10 times 
-        for i in range(10):
+        for i in range(40):
 
             # Printing to see which step of the loop it is 
             print(f"Running try: {i+1}")
