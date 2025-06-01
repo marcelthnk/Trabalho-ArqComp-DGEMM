@@ -6,7 +6,7 @@
 #include <mm_malloc.h>
 #include <immintrin.h>  // AVX
 #define UNROLL 4
-#define BLOCKSIZE 32
+#define BLOCKSIZE 64
 
 /* We will be using this library for time measurement of the DGEMM algorithm*/
 #include <time.h>
@@ -60,7 +60,7 @@ void initializer(int n, double* A, double* B){
 
 int main(){
     /* Creating the size of the matrix, the sizes for this project are 1K, 2K, 4K and 8K(1024, 2048, 4096, 8192)*/
-    int n = 8192; 
+    int n = 1024; 
 
     /* Initializng each matrix */
     double* A = (double*)_mm_malloc(n * n * sizeof(double), 32);

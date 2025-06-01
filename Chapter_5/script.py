@@ -5,9 +5,9 @@ import subprocess
 
 for opt_num in [1,2,4,8]:
     # Getting the program path, if it is in the same directory then just put the name and the extension(.exe if in Windows)
-    program_path = f"./dgemm_{opt_num}k_O3"
+    program_path = f"./dgemm_{opt_num}k_O3_BSZ64"
 
-    print(f"Running dgemm_{opt_num}k_O3")
+    print(f"Running dgemm_{opt_num}k_O3_BSZ16")
     
     # Creating a txt to store the time it took
     with open("times.txt", "a") as txt:

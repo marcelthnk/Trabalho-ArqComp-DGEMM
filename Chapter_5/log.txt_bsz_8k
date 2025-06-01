@@ -1,0 +1,25 @@
+nohup: ignoring input
+Running dgemm_8k_O3_BSZ16
+Running try: 1
+Running try: 2
+Running try: 3
+Running try: 4
+Running try: 5
+Running dgemm_8k_O3_BSZ32
+Running try: 1
+Running try: 2
+Running try: 3
+Running try: 4
+Running try: 5
+Running dgemm_8k_O3_BSZ64
+Running try: 1
+Running try: 2
+Running try: 3
+Running try: 4
+Running try: 5
+Running dgemm_8k_O3_BSZ128
+Running try: 1
+Running try: 2
+Running try: 3
+Running try: 4
+Running try: 5
