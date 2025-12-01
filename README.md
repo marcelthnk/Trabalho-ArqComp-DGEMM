@@ -1,3 +1,6 @@
+This project was made in the Computer Architecture course in UFRJ. During the project we made several adjustments and upgrades aiming to increase the speed and efficiency of matrix multiplication, an algorithm that 
+is used for a lot of activities in the Computation area.
+
 Chapter 2:
 The compilation in Linux is: gcc -Oi -o dgemm_jk_Oi linuxDGEMM.c
 Where "i" in "-Oi" and "_Oi" is the number of the optimization (O0, O1, O2, O3) and "j" in "_jk" is the size of the matrix (1024, 2048, 4096, 8192)
